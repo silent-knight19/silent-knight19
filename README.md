@@ -79,16 +79,13 @@ const sachin = {
 ---
 <!--START_SECTION:waka-->
 
-<!--END_SECTION:waka-->
+```txt
+From: 19 December 2025 - To: 26 December 2025
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="55">
-<em><b>I enjoy connecting with builders and engineers</b> — if you want to talk systems, code, or ideas, feel free to reach out.</em>
+Total Time: 0 secs
 
----
-
-<!--START_SECTION:waka-->
-
-<!-- Your existing WakaTime / GitHub stats action will auto-render here -->
+No activity tracked
+```
 
 <!--END_SECTION:waka-->
 
