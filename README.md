@@ -4,7 +4,7 @@
   <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="45">
 </h2>
 
-<img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
+<img align="right" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2I4a2ZjY2lpOXViMTd1dDJ0ZjhlNml5bDc0dmljMm1jaXMyM3hkdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EZr27ZbJwmjE9PGyLN/giphy.gif" width="230">
 
 <p><em>
 Full-Stack Engineer (MERN) • Systems-Oriented • Problem Solver<br/>
