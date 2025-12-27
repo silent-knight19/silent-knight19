@@ -8,7 +8,7 @@
 
 <p><em>
 Full-Stack Engineer (MERN) • Systems-Oriented • Problem Solver<br/>
-Building scalable, real-time web systems • Preparing for top product-based companies
+Building scalable, real-time web systems • Preparing for Software Engineering Roles 
 </em></p>
 
 [![LinkedIn](https://img.shields.io/badge/-Sachin%20Singh-blue?style=flat-square\&logo=Linkedin\&logoColor=white)](https://www.linkedin.com/in/sachinsinghdev/)
