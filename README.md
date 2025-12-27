@@ -90,3 +90,7 @@ No activity tracked
 <!--END_SECTION:waka-->
 
 > NOTE: Repository language stats reflect hosted code, not overall skill depth.
+## 🟡 Contribution Graph
+
+![Pacman contribution graph](https://raw.githubusercontent.com/silent-knight19/silent-knight19/output/pacman-contribution-graph.svg)
+
