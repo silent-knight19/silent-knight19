@@ -1,105 +1,124 @@
-<h2>
-  <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/>
-  नमस्ते (Namaste) 🙏🏻, I'm Sachin Singh!
-  <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="45">
-</h2>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+    <img src="assets/hero-light.svg" alt="Sachin Kumar Singh — backend and systems engineer" width="100%">
+  </picture>
+</div>
 
-<img align="right" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2I4a2ZjY2lpOXViMTd1dDJ0ZjhlNml5bDc0dmljMm1jaXMyM3hkdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EZr27ZbJwmjE9PGyLN/giphy.gif" width="230">
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/social-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/social-light.svg">
+    <img src="assets/social-light.svg" alt="GitHub · LinkedIn · X · Email" width="474">
+  </picture>
+</div>
 
-<p><em>
-Full-Stack Engineer (MERN) • Systems-Oriented • Problem Solver<br/>
-Building scalable, real-time web systems • Preparing for Software Engineering Roles 
-</em></p>
+<p align="center">
+  Most of my work lives below the framework — wire protocols, storage formats, consensus, and the test suites that keep them honest.
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/-Sachin%20Singh-blue?style=flat-square\&logo=Linkedin\&logoColor=white)](https://www.linkedin.com/in/sachinsinghdev/)
-[![GitHub followers](https://img.shields.io/github/followers/silent-knight19?label=Follow\&style=social)](https://github.com/silent-knight19)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-black?style=flat-square\&logo=Google-Chrome\&logoColor=white)](https://portfolioa-coral.vercel.app/)
-![](https://visitor-badge.glitch.me/badge?page_id=silent-knight19.silent-knight19)
+## Selected work
 
----
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/silent-knight19/Antares">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/antares-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/antares-light.svg">
+          <img src="assets/antares-light.svg" alt="Antares" width="100%">
+        </picture>
+      </a>
+      <p>A Redis-compatible server written from scratch in Go. RESP2, 71 commands, framed AOF persistence, LRU eviction, transactions, and replication with full and partial resync.</p>
+      <p>Verified by a differential harness against pinned Redis 7.4.11, selected official Tcl suites, fuzzing, and 100&times; SIGKILL crash tests.</p>
+      <p><code>Go</code> <code>RESP2</code> <code>AOF</code> <code>Replication</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/silent-knight19/Lattice">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/lattice-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/lattice-light.svg">
+          <img src="assets/lattice-light.svg" alt="Lattice" width="100%">
+        </picture>
+      </a>
+      <p>A distributed key-value storage engine built from core primitives in Go. LSM-tree storage, CRC32 write-ahead log, skip-list memtable, Bloom-filtered SSTables, leveled compaction, and Raft consensus with linearizable reads.</p>
+      <p>Transport is TLS 1.3 with mutual TLS and certificate-bound RBAC. All 22 architecture phases are implemented and verified.</p>
+      <p><code>Go</code> <code>LSM-tree</code> <code>Raft</code> <code>mTLS</code> &middot; <a href="https://lattice-dydy.onrender.com">Live demo</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/silent-knight19/Itehaas">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/itehaas-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/itehaas-light.svg">
+          <img src="assets/itehaas-light.svg" alt="Itehaas" width="100%">
+        </picture>
+      </a>
+      <p>A Git-inspired version control system and GitHub-like platform. A Rust CLI handles content-addressable storage, branching, three-way merge, rebase, and bisect, backed by a Fastify and PostgreSQL API and a Next.js web client.</p>
+      <p><code>Rust</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Next.js</code> &middot; <a href="https://itehaas-web.vercel.app">Live demo</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/silent-knight19/Quota">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/quota-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/quota-light.svg">
+          <img src="assets/quota-light.svg" alt="Quota" width="100%">
+        </picture>
+      </a>
+      <p>An extension for VS Code and Google Antigravity that tracks AI token usage and cost. Parses local logs into a SQLite ledger and renders session, workspace, and lifetime spend.</p>
+      <p>Entirely offline, with no prompt or source-code retention and a locked-down content security policy.</p>
+      <p><code>TypeScript</code> <code>Python</code> <code>SQLite</code> <code>VS Code API</code></p>
+    </td>
+  </tr>
+</table>
 
-### 🚀 Featured Projects
+## Byte level
 
-#### 🔹 CodeOrbit — Distributed Version Control System (GitHub-like VCS)
+Every mutating operation in Lattice is persisted to the write-ahead log and acknowledged only after the frame is durable. The header is fixed-width and big-endian, so a decoder can validate framing without allocating.
 
-* Built a **custom Version Control System from scratch**, inspired by Git/GitHub internals
-* Supports **repository creation, commits, branching, merges, and full history traversal**
-* **AWS-integrated storage layer** for blobs, trees, and commit objects (content-addressable design)
-* Implements **diffing, snapshots, and metadata indexing** for efficient version tracking
-* Designed with **consistency, durability, and scalability** as first-class concerns
-* Deep focus on **systems design principles** rather than surface-level UI cloning
-
-> Objective: demonstrate a deep understanding of how modern VCS systems work internally.
-
----
-
-#### 🔹 TUFTracker — AI-Powered DSA Pattern Learning Platform
-
-* **Pattern-wise DSA learning system** aligned with *Striver’s A2Z methodology*
-* AI-driven **personalized learning paths** based on solved problems and accuracy trends
-* Uses AI to **identify weak patterns**, recommend targeted revisions, and adjust difficulty
-* Intelligent **revision scheduling** using performance decay and time-gap analysis
-* AI-generated **problem insights, hints, and post-solve feedback** to improve reasoning
-* Tracks **conceptual understanding**, not just problem completion
-* Designed to act as a **personal DSA mentor**, not a passive tracker
-
-> Focus: replace brute-force grinding with adaptive, feedback-driven interview preparation.
-
----
-
-#### 🔹 Focus Labs — Productivity & Deep-Work Platform
-
-* Built to improve **deep-focus sessions** using structured work cycles
-* Real-time session tracking with minimal, distraction-free UI
-* Emphasis on **performance, simplicity, and habit reinforcement**
-
----
-
-#### 🔹 PixlMeet — Real-Time Video Conferencing App
-
-* Peer-to-peer video communication using **WebRTC**
-* Low-latency signaling via **WebSockets**
-* Designed with emphasis on **connection stability and UX**
-
----
-
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40"> A little more about me
-
-```javascript
-const sachin = {
-  role: "Full-Stack Engineer",
-  languages: ["JavaScript", "TypeScript", "Java"],
-  askMeAbout: [
-    "web development",
-    "real-time systems",
-    "system design",
-    "DSA preparation",
-    "AI-assisted learning systems",
-    "collaborative applications"
-  ],
-  technologies: {
-    frontend: ["React", "Vite", "Tailwind CSS"],
-    backend: ["Node.js", "Express"],
-    databases: ["MongoDB"],
-    realtime: ["WebSockets", "WebRTC"],
-    cloud: ["AWS (S3, IAM)"],
-    ai: ["LLM APIs", "Prompt Engineering", "Evaluation Pipelines"],
-    tooling: ["Git", "GitHub", "Docker (learning)"]
-  },
-  currentFocus: [
-    "DSA (interview-focused)",
-    "Low-Level Design",
-    "Scalable backend systems",
-    "Applied AI in developer tools"
-  ],
-  funFact: "Good abstractions age better than clever hacks"
-};
+```
+ 0                   1                   2                   3
+ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                      CRC32-IEEE Checksum                      |  Offset 0..3
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|  RecordType   |                                               |  Offset 4
++-+-+-+-+-+-+-+-+                                               +
+|                     Sequence Number (SeqNum)                  |  Offset 5..12
++                               +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                               |                               |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+                               +
+|                     Timestamp (Unix Nanos)                    |  Offset 13..20
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                               |          KeyLength            |  Offset 21..22
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                          KeyBytes...                          |  Offset 23...
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                         ValueLength                           |  Offset 23+KeyLen
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                         ValueBytes...                         |  Offset 27+KeyLen
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 ```
 
+## Stack
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
+    <img src="assets/stack-light.svg" alt="Go, Rust, TypeScript, Python, PostgreSQL, Redis, React, Next.js, Fastify, Docker, Linux, Git" width="820">
+  </picture>
+</div>
+
+<p align="center"><sub>AWS &#183; GitHub Actions &#183; Tailwind CSS &#183; Node.js &#183; SQLite &#183; Java &#183; Redis Cluster &#183; mTLS</sub></p>
+
 ---
 
-> NOTE: Repository language stats reflect hosted code, not overall skill depth.
-
-## 🟡 Contribution Graph
-
-![Pacman contribution graph](https://raw.githubusercontent.com/silent-knight19/silent-knight19/output/pacman-contribution-graph.svg)
+<p align="center">
+  <strong>Open to software engineering roles and internships.</strong><br/>
+  <a href="https://github.com/silent-knight19">github.com/silent-knight19</a> &middot;
+  <a href="https://www.linkedin.com/in/sachinsinghdev/">linkedin.com/in/sachinsinghdev</a> &middot;
+  <a href="https://x.com/_Sachin_Singh19">@_Sachin_Singh19</a>
+</p>
